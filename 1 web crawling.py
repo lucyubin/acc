@@ -57,4 +57,4 @@ er.columns = ['거리', '병원명', '업무구분', '전화번호', '주소', '
 er = er[['병원명', '업무구분']]
 er['병원명'] = er['병원명'].str.replace('상세보기', '')
 
-er.to_csv(file_path + '1 raw/er.csv', encoding='euc-kr')
+er.to_csv(file_path + 'er.csv', encoding='euc-kr')
