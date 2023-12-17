@@ -1,7 +1,7 @@
 import pandas as pd
 from selenium import webdriver
 
-file_path = 'D:/KRILA/data/'
+file_path = 'D:/*'
 
 # https://googlechromelabs.github.io/chrome-for-testing/
 driver = webdriver.Chrome(file_path + 'chromedriver.exe')
